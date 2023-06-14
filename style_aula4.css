@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+h1{
+    font-size: 4.5rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h2{
+    font-size: 3.5rem;
+    margin-bottom: 0;
+}
+
+table, td, th{
+    border: 1px solid black;
+}
+
+table tr:first-child{
+    background-color: royalblue;
+    color: white;
+}
+
+table tr:nth-child(2n + 3){
+    background-color: rgb(192, 185, 185);
+}
+
+table{
+    font-size: 3.0rem;
+    border-collapse: separate;
+}
+
+ul, li{
+    margin-top: 0;
+    font-size: 3.0rem;
+}
+
+ol{
+    list-style: decimal-leading-zero;
+    padding-left: 5.5rem;
+}
+
+.box{
+    padding: 1.5rem;
+    width: 50rem;
+    height: 50rem;
+    border: 0.5rem solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box img{
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
